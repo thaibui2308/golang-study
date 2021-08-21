@@ -1,0 +1,6 @@
+You should see Hello World displayed in your terminal. 
+The go run command takes the subsequent files (separated by spaces), 
+compiles them into an executable saved in a temporary directory and then runs the program. 
+If you didn't see Hello World displayed you may have made a mistake when typing in the program. 
+The Go compiler will give you hints about where the mistake lies. 
+Like most compilers, the Go compiler is extremely pedantic and has no tolerance for mistakes.
