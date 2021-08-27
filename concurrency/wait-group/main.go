@@ -20,6 +20,7 @@ func main() {
 		wg.Add(1)
 		go func(filename string) {
 			compress(filename)
+			// Notify the waitgroup that the file in line is done
 			wg.Done()
 		}(file)
 	}
