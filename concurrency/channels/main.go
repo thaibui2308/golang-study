@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+var dataArr []int
+
 func main() {
 	// Wait for the specified second to elapse and then send the signal to the received channel
 	done := time.After(30 * time.Second)
