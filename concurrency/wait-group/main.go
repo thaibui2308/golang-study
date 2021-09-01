@@ -36,7 +36,6 @@ func compress(filename string) error {
 	}
 	defer in.Close()
 
-	// Open a destination file
 	out, err := os.Create(filename + ".gz")
 	if err != nil {
 		return err
