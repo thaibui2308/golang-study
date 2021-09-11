@@ -1,0 +1,2 @@
+logger2021/09/08 22:41:04 Hello world!
+logger2021/09/08 22:41:04 Oh snap! Error happened
