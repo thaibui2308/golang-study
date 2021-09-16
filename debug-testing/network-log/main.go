@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// Dial connects to a server that already initialized beforehand
-	conn, err := net.Dial("tcp", "localhost:3000")
+	conn, err := net.Dial("tcp", "localhost:8080")
 	if err != nil {
 		panic("Fail to connect to localhost:3000")
 	}
